@@ -1,0 +1,164 @@
+* { /** retirá configurações padrões de tela do navegador*/
+ box-sizing: border-box;
+ margin: 0;
+ padding: 0;
+}
+
+body {
+    background-color: #996644;
+}
+
+body > header { /** uso ">" para indicar filho direto do body */
+    background-color: #996644;
+    padding: 16px 0;
+    color: #faf2ed;
+}
+
+header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header li {
+      display:  inline; /** o item firá alinhado ao lado "inline/linha"*/
+      font-family: Arial, Helvetica, sans-serif;
+      font-weight: bold;
+      margin-left: 16px;
+}
+
+header li a {
+    color: #ffdac0;
+    text-decoration: none;
+    transition: color 0.4s ease; /**controlar o tempo de transição com hover*/
+}
+
+header li a:hover {
+    color: #faf2ed; /** mudará a cor do itém ao passar o mouse*/
+}
+
+.container {
+    width: 1366px;
+    margin: 8px auto;
+}
+
+.articles {
+    display: flex;
+    flex-wrap: wrap; /** o item irá para baixo ao ultrapassar container*/
+    justify-content: space-between; /** espaço dividido igualitario entre os itens*/
+}
+
+.articles article img {
+   /** height: 180px; /** limita o tamanho da img*/
+   height: 250px;
+   width: 420px;
+   border-radius: 8px;
+   margin-bottom: 8px;
+}
+
+.articles article {
+    width: 30%; /** espaço que a img ocupa*/
+}
+
+section {
+    padding: 16px 0;
+}
+
+section h2, .articles article {
+    margin-bottom: 16px;
+}
+
+.articles article h3 {
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+.articles article a {
+    color: #ffff;
+    padding: 8px;
+    display: inline-block;
+    text-decoration: none;
+    font-weight: bold;
+    margin-top: 8px;
+    border-radius: 16px;
+}
+
+.articles article a:hover {
+    text-decoration: underline;
+}
+
+.articles article p 
+.articles article a
+{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.articles article h3 {
+    font-size: 24px;
+}
+
+section h2 {
+    font-size: 32px;
+}
+
+#sports {
+    background-color:#fbf6e88b;
+}
+
+#sports  .articles a {
+    background-color: rgb(43, 149, 149);
+}
+
+#economy {
+    background-color: #c6e7d19d;
+}
+
+#economy .articles article a {
+    background-color: rgb(209, 166, 86);
+}
+
+
+#tec {
+    background-color: #97dafb88;
+}
+
+#tec .articles article a {
+    background-color: rgb(120, 127, 179);
+}
+
+#entretenimento {
+    background-color: #dac1e884;
+}
+
+#entretenimento .articles article a {
+    background-color: rgb(208, 158, 166);
+}
+
+.containerfinal {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #996644;
+}
+.containerfinal li {
+    display:  inline; /** o item firá alinhado ao lado "inline/linha"*/
+    font-weight: bold;
+    margin-left: 16px;
+}
+
+.containerfinal li a {
+    color: #ffdac0;
+    text-decoration: none;
+    transition: color 0.4s ease;
+}
+
+.containerfinal h1 {
+    padding: 16px 0;
+    color: #faf2ed;
+}
+
+
+.containerfinal li a:hover {
+    color: #faf2ed; /** mudará a cor do itém ao passar o mouse*/
+}
